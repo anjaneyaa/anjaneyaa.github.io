@@ -5,7 +5,7 @@
 
 Here are some ideas to get you started:-->
 
-- 🔭 I’m currently working as a Associate Consultant/ Sr Software Engineer
+- 🔭 I’m currently working as a Associate Consultant/ Software Engineer
 - 🌱 I’m currently learning Node JS Development.
 - 👯 I’m looking to collaborate on Python Development Projects
 <!-- - 🤔 I’m looking for help with ... -->
