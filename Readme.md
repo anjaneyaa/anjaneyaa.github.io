@@ -10,7 +10,7 @@ Here are some ideas to get you started:-->
 - 👯 I’m looking to collaborate on Python Development Projects
 <!-- - 🤔 I’m looking for help with ... -->
 <!-- - 💬 Ask me about ... -->
-- 📫 How to reach me by email @anjani.ies.26@gmail.com
+- 📫 You can reach me by email @anjani.ies.26@gmail.com
 <!-- - 😄 Pronouns: ...
 - ⚡ Fun fact: ...-->
 
