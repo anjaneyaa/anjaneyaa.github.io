@@ -346,6 +346,10 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
+.about-div-img{
+  height: 100px;
+  width: 200px;
+}
 
 /*--------------------------------------------------------------
 # Facts
