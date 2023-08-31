@@ -5,6 +5,31 @@
     <title>Python</title>
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.min.css" rel="stylesheet">
+    <style>
+        .code-background{
+        background-color: black; 
+        color: white;
+    }
+    .code-header{
+        background-color: rgb(49, 48, 48); 
+        height: 30px;
+    }
+    .code-html{
+        margin: 5px;
+    }
+    .copy-code-span{
+        float: right;
+    }
+    .button-copy{
+        background-color: rgb(49, 48, 48); 
+        border: none; 
+        color: white;
+    }
+    .code{
+        margin: 10px 20px 10px 20px; 
+        padding-bottom: 5px;
+    }
+    </style>
 </head>
 
 <body style="font-family: Georgia, 'Times New Roman', Times, serif;">
@@ -15,93 +40,93 @@
         <ol>
             <li>
                 <strong>Basic Syntax and Data Types:</strong> Variables, data types (integers, floats, strings),
-                    operators, basic input/output.
+                operators, basic input/output.
             </li>
             <li>
                 <strong>Control Structures:</strong> Conditional statements (if, elif, else), loops (for, while),
-                    break and continue statements.
+                break and continue statements.
             </li>
             <li>
                 <strong>Functions:</strong> Defining and using functions, parameters, return values, scope.
             </li>
             <li>
                 <strong>Data Structures:</strong> Lists, tuples, sets, dictionaries, manipulating and accessing
-                    elements.
+                elements.
             </li>
             <li>
-                <strong>String Manipulation:</strong> String methods, formatting, slicing. 
+                <strong>String Manipulation:</strong> String methods, formatting, slicing.
             </li>
             <li>
                 <strong>File Handling:</strong> Reading and writing files, file modes, working with CSV and JSON
-                    files.
+                files.
             </li>
             <li>
                 <strong>Exception Handling:</strong> Try, except, finally blocks for handling errors and exceptions.
-                
+
             </li>
             <li>
                 <strong>Object-Oriented Programming (OOP):</strong> Classes, objects, constructors, inheritance,
-                    encapsulation, polymorphism. 
+                encapsulation, polymorphism.
             </li>
             <li>
                 <strong>Modules and Packages:</strong> Importing modules, creating and using packages, namespaces.
-                
+
             </li>
             <li>
-                <strong>Regular Expressions:</strong> Pattern matching using regular expressions. 
+                <strong>Regular Expressions:</strong> Pattern matching using regular expressions.
             </li>
             <li>
-                <strong>Advanced Data Structures:</strong> Stacks, queues, linked lists, trees, graphs. 
+                <strong>Advanced Data Structures:</strong> Stacks, queues, linked lists, trees, graphs.
             </li>
             <li>
                 <strong>Advanced Topics:</strong> Decorators, generators, iterators, context managers.
             </li>
             <li>
                 <strong>Built-in Functions and Libraries:</strong> Commonly used functions (len, range, map, etc.),
-                    standard libraries (math, datetime, os, etc.). 
+                standard libraries (math, datetime, os, etc.).
             </li>
             <li>
-                <strong>Working with APIs:</strong> Making HTTP requests, handling JSON responses. 
+                <strong>Working with APIs:</strong> Making HTTP requests, handling JSON responses.
             </li>
             <li>
-                <strong>Database Interaction:</strong> Basics of connecting to and interacting with databases. 
+                <strong>Database Interaction:</strong> Basics of connecting to and interacting with databases.
             </li>
             <li>
-                <strong>Unit Testing:</strong> Writing and running test cases using the `unittest` framework. 
+                <strong>Unit Testing:</strong> Writing and running test cases using the `unittest` framework.
             </li>
             <li>
                 <strong>Virtual Environments:</strong> Managing dependencies and isolated environments using
-                    `virtualenv` or `venv`.
+                `virtualenv` or `venv`.
             </li>
             <li>
                 <strong>Debugging and Profiling:</strong> Techniques for finding and fixing code issues, optimizing
-                    performance.
+                performance.
             </li>
             <li>
-                <strong>Web Development:</strong> Basics of web frameworks like Flask or Django. 
+                <strong>Web Development:</strong> Basics of web frameworks like Flask or Django.
             </li>
             <li>
                 <strong>GUI Programming:</strong> Creating graphical user interfaces using libraries like Tkinter or
-                    PyQt.
+                PyQt.
             </li>
             <li>
                 <strong>Concurrency and Threading:</strong> Multithreading and multiprocessing for concurrent
-                    execution.
+                execution.
             </li>
             <li>
-                <strong>Networking:</strong> Sockets, sending and receiving data over networks. 
+                <strong>Networking:</strong> Sockets, sending and receiving data over networks.
             </li>
             <li>
                 <strong>Data Science and Analysis:</strong> Libraries like NumPy, Pandas, and Matplotlib for data
-                    manipulation and visualization. 
+                manipulation and visualization.
             </li>
             <li>
                 <strong>Machine Learning and AI:</strong> Libraries like Scikit-Learn, TensorFlow, and PyTorch for
-                    machine learning and artificial intelligence. 
+                machine learning and artificial intelligence.
             </li>
             <li>
                 <strong>Web Scraping:</strong> Extracting data from websites using libraries like Beautiful Soup and
-                    Requests.
+                Requests.
             </li>
         </ol>
         </p>
@@ -110,7 +135,7 @@
         <ol>
             <li>
                 <strong>Variables</strong>: Used to store data. No need to declare a
-                    variable's type explicitly.
+                variable's type explicitly.
             </li>
             <li>
                 <strong>Data Types</strong>: Python has various built-in data types:
@@ -123,7 +148,7 @@
             </li>
             <li>
                 <strong>Operators</strong>: Used to perform operations on variables and
-                    values.
+                values.
                 <ul>
                     <li><strong>Arithmetic Operators</strong>: +, -, *, /, %, // (floor
                         division), ** (exponentiation).</li>
@@ -134,26 +159,25 @@
             </li>
             <li>
                 <strong>Basic Input/Output</strong>: Using <code>input()</code> to get user
-                    input and <code>print()</code> to display output.
+                input and <code>print()</code> to display output.
             </li>
             <li>
                 <strong>Comments</strong>: Lines beginning with <code>#</code> are comments
-                    and are ignored by the interpreter.
+                and are ignored by the interpreter.
             </li>
         </ol>
         <p>Here's a simple example of Python code that demonstrates these concepts:</p>
-        <div class="col-md-6" style="background-color: black; color: white;">
-            <div style="background-color: rgb(49, 48, 48); height: 30px;">
-                <div style="margin: 5px;">
-                    <span>html</span>
-                    <span style="float: right;">
-                        <button class="bi bi-clipboard"
-                            style="background-color: rgb(49, 48, 48); border: none; color: white;">
-                            Copy code</button>
-                    </span>
+        <div class="col-md-6 code-background">
+            <section class="code-header">
+                <div class="code-html">
+                  <span>python</span>
+                  <span class="copy-code-span">
+                    <button class="bi bi-clipboard button-copy">
+                      Copy code</button>
+                  </span>
                 </div>
-            </div>
-            <div style="margin: 10px 20px 10px 20px; padding-bottom: 5px;">
+              </section> 
+            <div class="code">
                 <pre><code class="!whitespace-pre hljs language-python">
         <span class="hljs-comment"># This is a comment</span>
         num1 = <span class="hljs-number">10</span>           <span class="hljs-comment"># An integer variable</span>
@@ -178,21 +202,20 @@
         <h4>Control Structures in Python</h4>
         <p>Control structures in Python allow you to control the flow of your program. Here are the main control
             structures:</p>
-        <ol>
+        
             <li><strong>Conditional Statements (if, elif, else)</strong></li>
             Used to execute different code blocks based on conditions.
-            <div class="col-md-6" style="background-color: black; color: white;">
-                <div style="background-color: rgb(49, 48, 48); height: 30px;">
-                    <div style="margin: 5px;">
-                        <span>html</span>
-                        <span style="float: right;">
-                            <button class="bi bi-clipboard"
-                                style="background-color: rgb(49, 48, 48); border: none; color: white;">
-                                Copy code</button>
-                        </span>
+            <div class="col-md-6 code-background">
+                <section class="code-header">
+                    <div class="code-html">
+                      <span>python</span>
+                      <span class="copy-code-span">
+                        <button class="bi bi-clipboard button-copy">
+                          Copy code</button>
+                      </span>
                     </div>
-                </div>
-                <div style="margin: 10px 20px 10px 20px; padding-bottom: 5px;">
+                  </section> 
+                <div class="code">
                     <pre><code>if condition1:
             # Code to execute if condition1 is True
             elif condition2:
@@ -201,6 +224,7 @@
             # Code to execute if none of the conditions are True</code></pre>
                 </div>
             </div>
+            <ol>
             <li><strong>Loops (for, while)</strong></li>
             Used to execute a block of code repeatedly.
             <h3>For Loop</h3>
@@ -213,7 +237,7 @@
             <pre><code>while condition:
     # Code to execute while the condition is True</code></pre>
 
-            <li><strong>3. Break and Continue Statements</strong></li>
+            <li><strong>Break and Continue Statements</strong></li>
             <p>Used to modify the flow of loops.</p>
             <h3>Break</h3>
             <p>Exits the loop prematurely.</p>
@@ -228,19 +252,18 @@
         continue</code></pre>
 
             <p>Here's an example demonstrating these control structures:</p>
-            <div class="col-md-6" style="background-color: black; color: white;">
-                <div style="background-color: rgb(49, 48, 48); height: 30px;">
-                    <div style="margin: 5px;">
-                        <span>html</span>
-                        <span style="float: right;">
-                            <button class="bi bi-clipboard"
-                                style="background-color: rgb(49, 48, 48); border: none; color: white;">
-                                Copy code</button>
-                        </span>
+            <div class="col-md-6 code-background">
+                <section class="code-header">
+                    <div class="code-html">
+                      <span>python</span>
+                      <span class="copy-code-span">
+                        <button class="bi bi-clipboard button-copy">
+                          Copy code</button>
+                      </span>
                     </div>
-                </div>
-                <div style="margin: 10px 20px 10px 20px; padding-bottom: 5px;">
-                    <pre><code># Conditional Statements
+                  </section> 
+                <div class="code">
+    <pre><code>   # Conditional Statements
             x = 10
             if x > 0:
                 print("x is positive")
@@ -249,7 +272,7 @@
             else:
                 print("x is negative")
 
-            # For Loop
+    # For Loop
             numbers = [1, 2, 3, 4, 5]
             sum = 0
             for num in numbers:
@@ -281,17 +304,18 @@
         <p>Functions in Python are reusable blocks of code that perform specific tasks. They help organize code, make it
             more modular, and reduce redundancy. Here's how to work with functions:</p>
 
-        <li><strong>1. Defining a Function</strong></li>
+        <li><strong>Defining a Function</strong></li>
         <p>To define a function, use the <code>def</code> keyword followed by the function name and parameters within
             parentheses. The function body is indented below.</p>
+            
         <pre><code>def greet(name):
             print("Hello, " + name)</code></pre>
 
-        <li><strong>2. Calling a Function</strong></li>
+        <li><strong>Calling a Function</strong></li>
         <p>To use a function, call it by its name and provide arguments if needed.</p>
         <pre><code>greet("Alice")</code></pre>
 
-        <li><strong>3. Parameters and Arguments</strong></li>
+        <li><strong>Parameters and Arguments</strong></li>
         <p>Parameters are variables in a function's definition. Arguments are values passed to a function when it's
             called.</p>
         <pre><code>def add(a, b):
@@ -299,7 +323,7 @@
     
             result = add(3, 5)  # Here, 3 and 5 are arguments</code></pre>
 
-        <li><strong>4. Return Statement</strong></li>
+        <li><strong>Return Statement</strong></li>
         <p>Functions can return values using the <code>return</code> statement. If no return value is specified, the
             function returns <code>None</code>.</p>
         <pre><code>def square(x):
@@ -307,7 +331,7 @@
     
             squared_value = square(4)</code></pre>
 
-        <li><strong>5. Default Arguments</strong></li>
+        <li><strong>Default Arguments</strong></li>
         <p>You can provide default values for function parameters, which are used when the caller doesn't provide a
             value for that parameter.</p>
         <pre><code>def power(base, exponent=2):
@@ -316,7 +340,7 @@
             result1 = power(3)      # Uses default exponent of 2
             result2 = power(2, 3)   # Uses provided exponent of 3</code></pre>
 
-        <li><strong>6. Variable Number of Arguments</strong></li>
+        <li><strong>Variable Number of Arguments</strong></li>
         <p>Functions can accept a variable number of arguments using <code>*args</code> for positional arguments and
             <code>**kwargs</code> for keyword arguments.
         </p>
@@ -326,7 +350,7 @@
     
 print_args(1, 2, 3)</code></pre>
 
-        <li><strong>7. Scope</strong></li>
+        <li><strong>Scope</strong></li>
         <p>Variables defined inside a function are in its local scope. Variables defined outside functions are in the
             global scope.</p>
         <pre><code>global_var = 10  // Global variable
@@ -344,44 +368,44 @@ demo_scope()</code></pre>
         <p>Python offers several built-in data structures that help you organize and manipulate data efficiently. Here
             are some of the main data structures:</p>
 
-        <li><strong>1. Lists</strong></li>
+        <li><strong>Lists</strong></li>
         <p>Ordered, mutable collections of items.</p>
         <pre><code>my_list = [1, 2, 3, 4]
 my_list.append(5)
 my_list.pop(2)</code></pre>
 
-        <li><strong>2. Tuples</strong></li>
+        <li><strong>Tuples</strong></li>
         <p>Ordered, immutable collections of items.</p>
         <pre><code>my_tuple = (1, 2, 3)
 value = my_tuple[1]</code></pre>
 
-        <li><strong>3. Sets</strong></li>
+        <li><strong>Sets</strong></li>
         <p>Unordered collections of unique items.</p>
         <pre><code>my_set = {1, 2, 3}
 my_set.add(4)
 my_set.remove(2)</code></pre>
 
-        <li><strong>4. Dictionaries</strong></li>
+        <li><strong>Dictionaries</strong></li>
         <p>Unordered collections of key-value pairs.</p>
         <pre><code>my_dict = {'name': 'Alice', 'age': 25}
 my_dict['city'] = 'New York'
 age = my_dict['age']</code></pre>
 
-        <li><strong>5. Strings</strong></li>
+        <li><strong>Strings</strong></li>
         <p>Sequences of characters.</p>
         <pre><code>my_string = "Hello, Python"
 substring = my_string[7:13]</code></pre>
 
-        <li><strong>6. Lists of Lists (Nested Lists)</strong></li>
+        <li><strong>Lists of Lists (Nested Lists)</strong></li>
         <p>Creating lists that contain other lists.</p>
         <pre><code>matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 value = matrix[1][2]</code></pre>
 
-        <li><strong>7. List Comprehensions</strong></li>
+        <li><strong>List Comprehensions</strong></li>
         <p>Creating lists using a compact syntax.</p>
         <pre><code>squares = [x ** 2 for x in range(1, 6)]</code></pre>
 
-        <li><strong>8. Dictionaries of Dictionaries (Nested Dictionaries)</strong></li>
+        <li><strong>Dictionaries of Dictionaries (Nested Dictionaries)</strong></li>
         <p>Creating dictionaries that contain other dictionaries.</p>
         <pre><code>users = {
     'user1': {'name': 'Alice', 'age': 25},
@@ -389,12 +413,12 @@ value = matrix[1][2]</code></pre>
 }
 age = users['user1']['age']</code></pre>
 
-        <li><strong>9. Sets and Frozensets</strong></li>
+        <li><strong>Sets and Frozensets</strong></li>
         <p>Sets are mutable, while frozensets are immutable sets.</p>
         <pre><code>my_set = {1, 2, 3}
 my_frozenset = frozenset(my_set)</code></pre>
 
-        <li><strong>10. Deque</strong></li>
+        <li><strong>Deque</strong></li>
         <p>Double-ended queue for efficient insertion and deletion from both ends.</p>
         <pre><code>&lt;!-- Make sure to include the Python code --&gt;</code></pre>
 
@@ -404,50 +428,50 @@ my_frozenset = frozenset(my_set)</code></pre>
         <p>String manipulation in Python involves various operations to work with and manipulate strings. Here are some
             common string manipulation techniques:</p>
 
-        <li><strong>1. Concatenation</strong></li>
+        <li><strong>Concatenation</strong></li>
         <p>Combining strings together.</p>
         <pre><code>str1 = "Hello"
 str2 = "World"
 result = str1 + " " + str2</code></pre>
 
-        <li><strong>2. String Formatting</strong></li>
+        <li><strong>String Formatting</strong></li>
         <p>Creating formatted strings using placeholders.</p>
         <pre><code>name = "Alice"
 age = 30
 message = "My name is {} and I am {} years old.".format(name, age)</code></pre>
 
-        <li><strong>3. String Methods</strong></li>
+        <li><strong>String Methods</strong></li>
         <p>Python provides a wide range of string methods for various operations.</p>
         <pre><code>my_string = "Hello, Python!"
 length = len(my_string)
 uppercase = my_string.upper()
 lowercase = my_string.lower()</code></pre>
 
-        <li><strong>4. String Slicing</strong></li>
+        <li><strong>String Slicing</strong></li>
         <p>Extracting portions of a string.</p>
         <pre><code>my_string = "Hello, Python!"
 substring = my_string[7:13]  // Extracts "Python"</code></pre>
 
-        <li><strong>5. String Splitting and Joining</strong></li>
+        <li><strong>String Splitting and Joining</strong></li>
         <pre><code>my_string = "apple,banana,orange"
 fruits_list = my_string.split(",")
 
 fruits = ["apple", "banana", "orange"]
 joined_string = "-".join(fruits)</code></pre>
 
-        <li><strong>6. Stripping Whitespaces</strong></li>
+        <li><strong>Stripping Whitespaces</strong></li>
         <pre><code>my_string = "   Hello, Python!   "
 stripped_string = my_string.strip()  // Removes leading and trailing whitespaces</code></pre>
 
-        <li><strong>7. Replacing Substrings</strong></li>
+        <li><strong>Replacing Substrings</strong></li>
         <pre><code>my_string = "Hello, World!"
 new_string = my_string.replace("World", "Python")</code></pre>
 
-        <li><strong>8. Checking Substrings</strong></li>
+        <li><strong>Checking Substrings</strong></li>
         <pre><code>my_string = "Hello, Python!"
 contains_python = "Python" in my_string</code></pre>
 
-        <li><strong>9. String Formatting (f-strings) (Python 3.6+)</strong></li>
+        <li><strong>String Formatting (f-strings) (Python 3.6+)</strong></li>
         <pre><code>name = "Alice"
 age = 30
 message = f"My name is {name} and I am {age} years old."</code></pre>
@@ -458,7 +482,7 @@ message = f"My name is {name} and I am {age} years old."</code></pre>
         <p>File handling in Python allows you to work with files, both for reading and writing data. Here's how you can
             use file handling operations:</p>
 
-        <li><strong>1. Opening a File</strong></li>
+        <li><strong>Opening a File</strong></li>
         <p>To work with a file, you need to open it using the <code>open()</code> function. You specify the file name
             and the mode in which you want to open the file (read, write, or both).</p>
         <pre><code># Opening a file for reading
@@ -467,7 +491,7 @@ file = open("example.txt", "r")
 # Opening a file for writing
 file = open("output.txt", "w")</code></pre>
 
-        <li><strong>2. Reading from a File</strong></li>
+        <li><strong>Reading from a File</strong></li>
         <p>You can read the contents of a file using methods like <code>read()</code>, <code>readline()</code>, or
             <code>readlines()</code>.
         </p>
@@ -480,22 +504,22 @@ line = file.readline()
 # Reading all lines into a list
 lines = file.readlines()</code></pre>
 
-        <li><strong>3. Writing to a File</strong></li>
+        <li><strong>Writing to a File</strong></li>
         <p>You can write to a file using methods like <code>write()</code>.</p>
         <pre><code># Writing a string to the file
 file.write("Hello, world!")</code></pre>
 
-        <li><strong>4. Closing a File</strong></li>
+        <li><strong>Closing a File</strong></li>
         <p>It's important to close the file after you're done working with it to free up system resources.</p>
         <pre><code>file.close()</code></pre>
 
-        <li><strong>5. Using 'with' Statement (Context Manager)</strong></li>
+        <li><strong>Using 'with' Statement (Context Manager)</strong></li>
         <p>The <code>with</code> statement ensures that the file is properly closed after you're done, even if an
             exception occurs.</p>
         <pre><code>with open("example.txt", "r") as file:
     content = file.read()</code></pre>
 
-        <li><strong>6. Appending to a File</strong></li>
+        <li><strong>Appending to a File</strong></li>
         <p>To add content to an existing file without overwriting it, you can open the file in append mode ("a").</p>
         <pre><code>with open("output.txt", "a") as file:
     file.write("Additional content")</code></pre>
@@ -507,7 +531,7 @@ file.write("Hello, world!")</code></pre>
         <p>Exception handling in Python allows you to handle errors and exceptions gracefully, preventing your program
             from crashing. Here's how you can use exception handling:</p>
 
-        <li><strong>1. Try-Except Block</strong></li>
+        <li><strong>Try-Except Block</strong></li>
         <p>Use a <code>try</code> block to enclose the code that might raise an exception. If an exception occurs, the
             code in the corresponding <code>except</code> block will be executed.</p>
         <pre><code>try:
@@ -517,7 +541,7 @@ except ZeroDivisionError:
     # Code to handle the exception
     print("Division by zero error")</code></pre>
 
-        <li><strong>2. Multiple Except Blocks</strong></li>
+        <li><strong>Multiple Except Blocks</strong></li>
         <p>You can handle different types of exceptions with multiple <code>except</code> blocks.</p>
         <pre><code>try:
     value = int("abc")
@@ -526,7 +550,7 @@ except ValueError:
 except ZeroDivisionError:
     print("ZeroDivisionError occurred")</code></pre>
 
-        <li><strong>3. Exception with an Else Block</strong></li>
+        <li><strong>Exception with an Else Block</strong></li>
         <p>You can use an <code>else</code> block to execute code when no exception occurs.</p>
         <pre><code>try:
     x = 10 / 2
@@ -535,7 +559,7 @@ except ZeroDivisionError:
 else:
     print("Result:", x)</code></pre>
 
-        <li><strong>4. Exception with a Finally Block</strong></li>
+        <li><strong>Exception with a Finally Block</strong></li>
         <p>The <code>finally</code> block always executes, whether an exception occurred or not. It's commonly used to
             release resources.</p>
         <pre><code>try:
@@ -546,14 +570,14 @@ except FileNotFoundError:
 finally:
     file.close()</code></pre>
 
-        <li><strong>5. Raising Exceptions</strong></li>
+        <li><strong>Raising Exceptions</strong></li>
         <p>You can manually raise exceptions using the <code>raise</code> statement.</p>
         <pre><code>def divide(a, b):
     if b == 0:
         raise ZeroDivisionError("Division by zero is not allowed")
     return a / b</code></pre>
 
-        <li><strong>6. Custom Exception Classes</strong></li>
+        <li><strong>Custom Exception Classes</strong></li>
         <p>You can define your own custom exception classes by subclassing built-in exceptions or the
             <code>Exception</code> class.
         </p>
@@ -569,7 +593,7 @@ finally:
             which are instances of classes. Python is an object-oriented language, and here's how you can work with OOP
             concepts:</p>
 
-        <li><strong>1. Classes and Objects</strong></li>
+        <li><strong>Classes and Objects</strong></li>
         <p><strong>Class:</strong> A blueprint or template for creating objects. It defines attributes (data) and
             methods (functions) that the objects will have.</p>
         <pre><code>class Person:
@@ -585,17 +609,17 @@ person2 = Person("Bob", 25)
 
 print(person1.greet())  // Output: Hello, my name is Alice and I am 30 years old.</code></pre>
 
-        <li><strong>2. Attributes and Methods</strong></li>
+        <li><strong>Attributes and Methods</strong></li>
         <p><strong>Attributes:</strong> Variables that belong to an object and store its data.</p>
         <p><strong>Methods:</strong> Functions defined within a class that can be called on objects of that class.</p>
 
-        <li><strong>3. Constructor (`__init__`)</strong></li>
+        <li><strong>Constructor (`__init__`)</strong></li>
         <p>The <code>__init__</code> method is used to initialize object attributes when an object is created.</p>
         <pre><code>def __init__(self, attribute1, attribute2):
     self.attribute1 = attribute1
     self.attribute2 = attribute2</code></pre>
 
-        <li><strong>4. Inheritance</strong></li>
+        <li><strong>Inheritance</strong></li>
         <p>Inheritance allows a class (subclass/derived class) to inherit attributes and methods from another class
             (base class/superclass).</p>
         <pre><code>class Student(Person):
@@ -603,11 +627,11 @@ print(person1.greet())  // Output: Hello, my name is Alice and I am 30 years old
         super().__init__(name, age)
         self.student_id = student_id</code></pre>
 
-        <li><strong>5. Encapsulation</strong></li>
+        <li><strong>Encapsulation</strong></li>
         <p>Encapsulation restricts direct access to certain attributes and methods, promoting data hiding and
             abstraction.</p>
 
-        <li><strong>6. Polymorphism</strong></li>
+        <li><strong>Polymorphism</strong></li>
         <p>Polymorphism allows objects of different classes to be treated as objects of a common superclass. It enables
             method overriding and dynamic method binding.</p>
         <pre><code>class Shape:
@@ -622,7 +646,7 @@ class Rectangle(Shape):
     def area(self, length, width):
         return length * width</code></pre>
 
-        <li><strong>7. Abstraction</strong></li>
+        <li><strong>Abstraction</strong></li>
         <p>Abstraction focuses on providing a simplified interface for interacting with objects, hiding complex
             implementation details.</p>
 
@@ -633,7 +657,7 @@ class Rectangle(Shape):
         <p>Modules and packages are key concepts in Python that help organize code into reusable and manageable
             components. Here's how they work:</p>
 
-        <li><strong>1. Modules</strong></li>
+        <li><strong>Modules</strong></li>
         <p>A module is a single Python file containing variables, functions, and classes that can be imported and used
             in other programs.</p>
         <p>Create a module by writing your code in a <code>.py</code> file, e.g., <code>my_module.py</code>.</p>
@@ -649,7 +673,7 @@ def add(a, b):
 result = my_module.add(3, 5)
 greeting = my_module.greet("Alice")</code></pre>
 
-        <li><strong>2. Packages</strong></li>
+        <li><strong>Packages</strong></li>
         <p>A package is a collection of related modules organized in directories. It allows for a hierarchical structure
             to manage larger projects.</p>
         <p>Create a directory for your package and include an <code>__init__.py</code> file in it.</p>
@@ -664,11 +688,11 @@ result = my_package.module1.add(3, 5)</code></pre>
         <pre><code>from my_package import module2
 greeting = module2.greet("Bob")</code></pre>
 
-        <li><strong>3. <code>__init__.py</code></strong></li>
+        <li><strong><code>__init__.py</code></strong></li>
         <p>The <code>__init__.py</code> file in a package directory can be left empty or contain initialization code for
             the package.</p>
 
-        <li><strong>4. Subpackages</strong></li>
+        <li><strong>Subpackages</strong></li>
         <p>Packages can have subpackages, allowing you to organize modules further.</p>
         <pre><code>my_package/
     __init__.py
@@ -686,11 +710,11 @@ result = module3.multiply(4, 6)</code></pre>
             They allow you to search for, match, and manipulate text based on specific patterns. Here's how you can use
             regular expressions in Python:</p>
 
-        <li><strong>1. Importing the <code>re</code> Module</strong></li>
+        <li><strong>Importing the <code>re</code> Module</strong></li>
         <p>To use regular expressions, you need to import the <code>re</code> module.</p>
         <pre><code>import re</code></pre>
 
-        <li><strong>2. Basic Matching</strong></li>
+        <li><strong>Basic Matching</strong></li>
         <p>You can use the <code>re.search()</code> function to find the first occurrence of a pattern in a string.</p>
         <pre><code>pattern = r"world"
 text = "Hello, world!"
@@ -698,28 +722,29 @@ match = re.search(pattern, text)
 if match:
     print("Pattern found:", match.group())</code></pre>
 
-        <li><strong>3. Pattern Modifiers</strong></li>
+        <li><strong>Pattern Modifiers</strong></li>
         <ul>
             <li><strong><code>r"`string`"</code>: Use raw strings to avoid escaping backslashes.</strong></li>
-            <li><strong><code>re.I</code> (case-insensitive): Use <code>re.search(pattern, text, re.I)</code> to make the search
-                case-insensitive.</strong></li>
+            <li><strong><code>re.I</code> (case-insensitive): Use <code>re.search(pattern, text, re.I)</code> to make
+                    the search
+                    case-insensitive.</strong></li>
         </ul>
 
-        <li><strong>4. Character Classes</strong></li>
+        <li><strong>Character Classes</strong></li>
         <ul>
             <li><strong><code>[abc]</code>: Match any of the characters a, b, or c.</strong></li>
             <li><strong><code>[a-z]</code>: Match any lowercase letter.</strong></li>
             <li><strong><code>[0-9]</code>: Match any digit.</strong></li>
         </ul>
 
-        <li><strong>5. Special Characters</strong></li>
+        <li><strong>Special Characters</strong></li>
         <ul>
             <li><strong><code>\d</code>: Match any digit (0-9).</strong></li>
             <li><strong><code>\w</code>: Match any alphanumeric character.</strong></li>
             <li><strong><code>\s</code>: Match any whitespace character.</strong></li>
         </ul>
 
-        <li><strong>6. Quantifiers</strong></li>
+        <li><strong>Quantifiers</strong></li>
         <ul>
             <li><strong><code>*</code>: Match zero or more occurrences.</strong></li>
             <li><strong><code>+</code>: Match one or more occurrences.</strong></li>
@@ -728,13 +753,13 @@ if match:
             <li><strong><code>{n, m}</code>: Match between n and m occurrences.</strong></li>
         </ul>
 
-        <li><strong>7. Anchors</strong></li>
+        <li><strong>Anchors</strong></li>
         <ul>
             <li><strong><code>^</code>: Match the start of a string.</strong></li>
             <li><strong><code>$</code>: Match the end of a string.</strong></li>
         </ul>
 
-        <li><strong>8. Groups and Capturing</strong></li>
+        <li><strong>Groups and Capturing</strong></li>
         <p>Use parentheses to create capturing groups.</p>
         <pre><code>pattern = r"(\d{3})-(\d{2})"
 text = "123-45"
@@ -743,7 +768,7 @@ if match:
     area_code = match.group(1)
     local_code = match.group(2)</code></pre>
 
-        <li><strong>9. Substitution</strong></li>
+        <li><strong>Substitution</strong></li>
         <p>You can use <code>re.sub()</code> to replace matched patterns with other text.</p>
         <pre><code>pattern = r"\bapple\b"
 text = "I like apple and pineapple."
@@ -756,7 +781,7 @@ new_text = re.sub(pattern, "orange", text)</code></pre>
         <p>Python offers advanced data structures beyond the basic ones like lists, tuples, and dictionaries. Here are a
             few advanced data structures you might find useful:</p>
 
-        <li><strong>1. Sets with Set Operations</strong></li>
+        <li><strong>Sets with Set Operations</strong></li>
         <p>Sets are collections of unique elements. Python's <code>set</code> class supports set operations like union,
             intersection, and difference.</p>
         <pre><code>set1 = {1, 2, 3}
@@ -766,12 +791,13 @@ union = set1 | set2
 intersection = set1 & set2
 difference = set1 - set2</code></pre>
 
-        <li><strong>2. Defaultdict and Counter from Collections</strong></li>
+        <li><strong>Defaultdict and Counter from Collections</strong></li>
         <p>The <code>collections</code> module offers useful data structures like <code>defaultdict</code> and
             <code>Counter</code>.
         </p>
         <ul>
-            <li><strong><code>defaultdict</code>: A dictionary that automatically creates default values for missing keys.</strong></li>
+            <li><strong><code>defaultdict</code>: A dictionary that automatically creates default values for missing
+                    keys.</strong></li>
             <pre><code>from collections import defaultdict
 
 d = defaultdict(int)
@@ -783,7 +809,7 @@ c = Counter(['a', 'b', 'a', 'c', 'b'])
 most_common = c.most_common(2)</code></pre>
         </ul>
 
-        <li><strong>3. OrderedDict</strong></li>
+        <li><strong>OrderedDict</strong></li>
         <p><code>OrderedDict</code> maintains the order of keys as they were inserted.</p>
         <pre><code>from collections import OrderedDict
 
@@ -791,7 +817,7 @@ d = OrderedDict()
 d['one'] = 1
 d['two'] = 2</code></pre>
 
-        <li><strong>4. Namedtuple</strong></li>
+        <li><strong>Namedtuple</strong></li>
         <p><code>Namedtuple</code> creates a simple class with named fields, providing a more readable alternative to
             regular tuples.</p>
         <pre><code>from collections import namedtuple
@@ -799,7 +825,7 @@ d['two'] = 2</code></pre>
 Point = namedtuple('Point', ['x', 'y'])
 p = Point(1, 2)</code></pre>
 
-        <li><strong>5. Deque</strong></li>
+        <li><strong>Deque</strong></li>
         <p><code>Deque</code> (double-ended queue) supports efficient append and pop operations on both ends.</p>
         <pre><code>from collections import deque
 
@@ -807,7 +833,7 @@ d = deque([1, 2, 3])
 d.append(4)
 d.popleft()</code></pre>
 
-        <li><strong>6. Heaps from heapq</strong></li>
+        <li><strong>Heaps from heapq</strong></li>
         <p>The <code>heapq</code> module provides functions for heap operations. A heap is a binary tree-based data
             structure that maintains the heap property.</p>
         <pre><code>import heapq
@@ -821,57 +847,58 @@ smallest = heapq.heappop(heap)</code></pre>
         <h4>Advanced Topics in Python</h4>
         <p>Here are some advanced topics in Python that go beyond the basics:</p>
 
-        <li><strong>1. Decorators</strong></li>
+        <ol>
+        <li><strong>Decorators</strong></li>
         <p>Decorators are functions that modify or enhance the behavior of other functions. They are often used for
             adding functionality like logging, authentication, or measuring execution time.</p>
 
-        <li><strong>2. Generators</strong></li>
+        <li><strong>Generators</strong></li>
         <p>Generators are a memory-efficient way to create iterators. They allow you to iterate over large sequences
             without storing the entire sequence in memory at once.</p>
 
-        <li><strong>3. Iterators and Iterables</strong></li>
+        <li><strong>Iterators and Iterables</strong></li>
         <p>Iterators are objects that implement the methods <code>__iter__()</code> and <code>__next__()</code>.
             Iterables are objects that can be iterated over, like lists or tuples.</p>
 
-        <li><strong>4. Context Managers</strong></li>
+        <li><strong>Context Managers</strong></li>
         <p>Context managers, implemented using the <code>with</code> statement, allow you to manage resources and
             perform setup/teardown operations automatically, like opening/closing files.</p>
 
-        <li><strong>5. Metaclasses</strong></li>
+        <li><strong>Metaclasses</strong></li>
         <p>Metaclasses define the behavior of classes. They allow you to control how classes are created and provide a
             way to modify class behavior globally.</p>
 
-        <li><strong>6. Concurrency and Multithreading</strong></li>
+        <li><strong>Concurrency and Multithreading</strong></li>
         <p>Python offers threading and multiprocessing libraries for handling concurrency. The <code>threading</code>
             module provides threads, while the <code>multiprocessing</code> module offers processes for parallel
             execution.</p>
 
-        <li><strong>7. Coroutines and Asynchronous Programming</strong></li>
+        <li><strong>Coroutines and Asynchronous Programming</strong></li>
         <p>Coroutines are functions that can be paused and resumed. Asynchronous programming with the
             <code>asyncio</code> library allows you to write asynchronous, non-blocking code.
         </p>
 
-        <li><strong>8. Memory Management</strong></li>
+        <li><strong>Memory Management</strong></li>
         <p>Understanding memory management in Python, including reference counting, garbage collection, and memory
             optimization techniques, can help improve performance.</p>
 
-        <li><strong>9. Performance Optimization</strong></li>
+        <li><strong>Performance Optimization</strong></li>
         <p>Techniques like profiling, memory profiling, and using specialized libraries (like NumPy for numerical
             computations) can optimize your code for speed and efficiency.</p>
 
-        <li><strong>10. Dynamic Typing and Type Annotations</strong></li>
+        <li><strong>Dynamic Typing and Type Annotations</strong></li>
         <p>Python's dynamic typing allows you to change the type of a variable during runtime. Type annotations and the
             <code>typing</code> module can help document and enforce type hints in your code.
         </p>
 
-        <li><strong>11. Unicode and Internationalization</strong></li>
+        <li><strong>Unicode and Internationalization</strong></li>
         <p>Python supports Unicode natively, making it suitable for working with text in various languages and character
             encodings.</p>
 
-        <li><strong>12. C Extensions and Cython</strong></li>
+        <li><strong>C Extensions and Cython</strong></li>
         <p>Python can be extended with C/C++ libraries and modules for performance-critical tasks. Cython is a tool that
             allows you to write C-like code and compile it to Python extensions.</p>
-
+        </ol>
         <p>These advanced topics provide a deeper understanding of Python's capabilities and allow you to write more
             efficient, robust, and versatile code.</p>
 
@@ -886,10 +913,13 @@ smallest = heapq.heappop(heap)</code></pre>
             <li><strong><code>input()</code>: Reads user input from the console.</strong></li>
             <li><strong><code>range()</code>: Generates a sequence of numbers.</strong></li>
             <li><strong><code>type()</code>: Returns the type of an object.</strong></li>
-            <li><strong><code>int()</code>, <code>float()</code>, <code>str()</code>: Convert values to specific types.</strong></li>
-            <li><strong><code>list()</code>, <code>tuple()</code>, <code>set()</code>, <code>dict()</code>: Create lists,
-                tuples, sets, and dictionaries.</strong></li>
-            <li><strong><code>max()</code>, <code>min()</code>: Return the maximum and minimum value in a sequence.</strong></li>
+            <li><strong><code>int()</code>, <code>float()</code>, <code>str()</code>: Convert values to specific
+                    types.</strong></li>
+            <li><strong><code>list()</code>, <code>tuple()</code>, <code>set()</code>, <code>dict()</code>: Create
+                    lists,
+                    tuples, sets, and dictionaries.</strong></li>
+            <li><strong><code>max()</code>, <code>min()</code>: Return the maximum and minimum value in a
+                    sequence.</strong></li>
             <li><strong><code>sum()</code>: Returns the sum of a sequence of numbers.</strong></li>
             <li><strong><code>sorted()</code>: Returns a sorted list from an iterable.</strong></li>
         </ol>
@@ -906,7 +936,8 @@ smallest = heapq.heappop(heap)</code></pre>
             <li><strong><code>requests</code>: Simplifies making HTTP requests.</strong></li>
             <li><strong><code>numpy</code>: A powerful library for numerical computations.</strong></li>
             <li><strong><code>pandas</code>: Used for data manipulation and analysis.</strong></li>
-            <li><strong><code>matplotlib</code> and <code>seaborn</code>: Libraries for data visualization.</strong></li>
+            <li><strong><code>matplotlib</code> and <code>seaborn</code>: Libraries for data visualization.</strong>
+            </li>
             <li><strong><code>tkinter</code>: Provides tools for creating graphical user interfaces.</strong></li>
             <li><strong><code>sqlite3</code>: Used for SQLite database interaction.</strong></li>
             <li><strong><code>unittest</code>: A framework for writing and running unit tests.</strong></li>
@@ -1342,7 +1373,7 @@ Gtk.main()
             <li><strong>Concurrency:</strong> Executing multiple tasks in overlapping time periods, allowing progress on
                 multiple tasks without completing any single task.</strong></li>
             <li><strong>Parallelism:</strong> Executing multiple tasks simultaneously on separate processors or cores.
-            </strong></li>
+                </strong></li>
         </ul>
 
         <li><strong>Threading</strong></li>
@@ -1506,8 +1537,10 @@ client_socket.close()
 
         <li><strong>Data Collection and Preparation</strong></li>
         <ul>
-            <li><strong>Collect data from various sources such as databases, APIs, web scraping, CSV files, etc.</strong></li>
-            <li><strong>Clean and preprocess the data by handling missing values, outliers, and formatting issues.</strong></li>
+            <li><strong>Collect data from various sources such as databases, APIs, web scraping, CSV files,
+                    etc.</strong></li>
+            <li><strong>Clean and preprocess the data by handling missing values, outliers, and formatting
+                    issues.</strong></li>
         </ul>
 
         <li><strong>Data Manipulation and Analysis Libraries</strong></li>
@@ -1696,888 +1729,7 @@ paragraph = soup.find('p', class_='intro').text</code></pre>
         <p>Remember to respect website terms of use, robots.txt guidelines, and be considerate of server load. Web
             scraping can vary in complexity based on the structure of the target website and the data you're trying to
             extract. Always check the website's terms of service and legal restrictions before scraping.</p>
-        <!-- <h4>Python Advanced Topics</h4>
-        <ol>
-            <li><a href="#decorators">Decorators</a></li>
-            <li><a href="#generators">Generators</a></li>
-            <li><a href="#iterators">Iterators and Iterables</a></li>
-            <li><a href="#context-managers">Context Managers</a></li>
-            <li><a href="#metaclasses">Metaclasses</a></li>
-            <li><a href="#concurrency">Concurrency and Multithreading</a></li>
-            <li><a href="#coroutines">Coroutines and Asynchronous Programming</a></li>
-            <li><a href="#memory-management">Memory Management</a></li>
-            <li><a href="#performance">Performance Optimization</a></li>
-            <li><a href="#dynamic-typing">Dynamic Typing and Type Annotations</a></li>
-            <li><a href="#unicode">Unicode and Internationalization</a></li>
-            <li><a href="#c-extensions">C Extensions and Cython</a></li>
-        </ol>
 
-        <li id="decorators">1. Decorators</li>
-        <p>Decorators in Python are a powerful and flexible way to modify or enhance the behavior of functions or
-            methods without changing their core logic. They are implemented using functions that take another function
-            as an argument and return a new function with added functionality.</p>
-
-        <li id="generators">2. Generators</li>
-        <p>Generators are a type of iterable that allow you to iterate over a sequence of values without storing them
-            all in memory at once. They are created using functions with the <code>yield</code> keyword, allowing you to
-            generate values on-the-fly.</p>
-
-        <li id="iterators">3. Iterators and Iterables</li>
-        <p>Iterators are objects that implement the <code>__iter__()</code> and <code>__next__()</code> methods,
-            allowing you to loop over a sequence of values. Iterables are objects that can be iterated over, and they
-            provide an iterator when calling the <code>iter()</code> function.</p>
-
-        <li id="context-managers">4. Context Managers</li>
-        <p>Context managers in Python are used to manage resources, such as files or network connections, in a clean and
-            efficient way. They are typically implemented using the <code>with</code> statement and the
-            <code>__enter__()</code> and <code>__exit__()</code> methods.
-        </p>
-
-        <li id="metaclasses">5. Metaclasses</li>
-        <p>Metaclasses are classes that define the behavior of other classes, often referred to as the "class of a
-            class." They allow you to customize class creation and behavior, and they are used to implement features
-            like class inheritance, attribute access, and more.</p>
-
-        <li id="concurrency">6. Concurrency and Multithreading</li>
-        <p>Concurrency involves executing multiple tasks concurrently to improve efficiency and responsiveness. Python's
-            Global Interpreter Lock (GIL) can limit true parallelism, particularly in CPU-bound tasks. Techniques like
-            threading and multiprocessing are used for concurrent programming.</p>
-
-        <li id="coroutines">7. Coroutines and Asynchronous Programming</li>
-        <p>Coroutines are functions that can be paused and resumed, allowing cooperative multitasking. Asynchronous
-            programming with the <code>async</code> and <code>await</code> keywords enables efficient I/O-bound
-            operations by allowing tasks to yield control while waiting for results.</p>
-
-        <li id="memory-management">8. Memory Management</li>
-        <p>Python's memory management involves techniques like reference counting and garbage collection to efficiently
-            manage memory allocation and deallocation. Understanding memory management is important for writing
-            efficient and memory-safe code.</p>
-
-        <li id="performance">9. Performance Optimization</li>
-        <p>Optimizing Python code involves techniques like profiling, benchmarking, and optimizing algorithms. Libraries
-            like <code>timeit</code> and <code>cProfile</code> help identify performance bottlenecks and improve code
-            efficiency.</p>
-
-        <li id="dynamic-typing">10. Dynamic Typing and Type Annotations</li>
-        <p>Python's dynamic typing allows variables to hold values of different types. Type annotations introduced in
-            Python 3.5 provide hints about variable types, aiding in code readability and enabling static type checking
-            using tools like <code>mypy</code>.</p>
-
-        <li id="unicode">11. Unicode and Internationalization</li>
-        <p>Python's support for Unicode enables working with text and characters from various languages and writing
-            internationalized applications. Libraries like <code>unicodedata</code> and <code>gettext</code> assist in
-            Unicode handling and localization.</p>
-
-        <li id="c-extensions">12. C Extensions and Cython</li>
-        <p>Python allows extending its capabilities using C extensions, enabling integration with existing C/C++ code.
-            Cython is a tool that simplifies creating C extensions by providing a Python-like syntax that gets compiled
-            to C code.</p>
-        <h4>Decorators in Python</h4>
-        <p>Decorators in Python are a powerful and flexible way to modify or enhance the behavior of functions or
-            methods without changing their core logic. Decorators are often used for tasks such as logging,
-            authentication, caching, and more. They are implemented using functions that take another function as an
-            argument and return a new function with added functionality.</p>
-
-        <li>Example of Decorators</li>
-        <pre><code>
-def my_decorator(func):
-    def wrapper():
-        print("Something is happening before the function is called.")
-        func()
-        print("Something is happening after the function is called.")
-    return wrapper
-
-@my_decorator
-def say_hello():
-    print("Hello, world!")
-
-say_hello()
-    </code></pre>
-
-        <p>In this example, the <code>my_decorator</code> function takes another function (<code>func</code>) as an
-            argument, defines a new function <code>wrapper</code> that wraps around <code>func</code>, and then returns
-            <code>wrapper</code>. The <code>@my_decorator</code> syntax above the <code>say_hello</code> function is a
-            shorthand way of applying the decorator to the <code>say_hello</code> function.
-        </p>
-
-        <p>When you call <code>say_hello()</code>, the output will be:</p>
-
-        <pre>
-Something is happening before the function is called.
-Hello, world!
-Something is happening after the function is called.
-    </pre>
-
-        <li>Advanced Usage</li>
-        <pre><code>
-def greet_decorator(greeting):
-    def decorator(func):
-        def wrapper():
-            print(f"{greeting}, something is happening before the function is called.")
-            func()
-            print(f"{greeting}, something is happening after the function is called.")
-        return wrapper
-    return decorator
-
-@greet_decorator("Hi")
-@my_decorator
-def say_hello():
-    print("Hello, world!")
-
-say_hello()
-    </code></pre>
-
-        <p>This will produce:</p>
-
-        <pre>
-Hi, Something is happening before the function is called.
-Something is happening before the function is called.
-Hello, world!
-Something is happening after the function is called.
-Hi, Something is happening after the function is called.
-    </pre>
-
-        <p>Decorators provide a clean and modular way to add functionality to functions or methods without modifying
-            their original code. They are widely used in Python to enhance the behavior of various frameworks and
-            libraries.</p>
-        <h4>Generators in Python</h4>
-        <p>Generators in Python are a way to create iterators in a more concise and memory-efficient manner. They allow
-            you to generate values on-the-fly instead of generating all values at once and storing them in memory.
-            Generators are particularly useful for handling large data sets or infinite sequences. They are defined
-            using functions with the <code>yield</code> keyword.</p>
-
-        <li>Example: Simple Generator</li>
-        <pre><code>
-def count_up_to(limit):
-    count = 1
-    while count <= limit:
-        yield count
-        count += 1
-
-# Using the generator
-counter = count_up_to(5)
-for num in counter:
-    print(num)
-    </code></pre>
-
-        <p>In this example, the <code>count_up_to</code> function generates numbers from 1 to the given
-            <code>limit</code>. The <code>yield</code> statement is used to yield values one at a time. When the
-            <code>for</code> loop iterates over the generator, it calls the generator function until it reaches the
-            <code>yield</code> statement, then pauses and resumes when the next value is requested.
-        </p>
-
-        <li>Benefits of Generators</li>
-        <ul>
-            <li><strong>Memory Efficiency:</strong> Since generators produce values on-the-fly, they don't store all
-                values in memory at once. This is particularly advantageous for working with large data sets.</li>
-            <li><strong>Lazy Evaluation:</strong> Values are generated only when needed, reducing unnecessary
-                computation.</li>
-            <li><strong>Infinite Sequences:</strong> Generators can represent infinite sequences (e.g., Fibonacci
-                sequence) without consuming infinite memory.</li>
-            <li><strong>Readable Code:</strong> Generators lead to more readable and modular code when dealing with
-                iteration and sequencing.</li>
-            <li><strong>Performance:</strong> Generators can improve the performance of your code, as they avoid the
-                overhead of creating and managing large data structures.</li>
-            <li><strong>State Maintenance:</strong> Generators can maintain their state between successive calls,
-                allowing them to remember their context.</li>
-        </ul>
-
-        <li>Example: Infinite Sequence Generator</li>
-        <pre><code>
-def fibonacci():
-    a, b = 0, 1
-    while True:
-        yield a
-        a, b = b, a + b
-
-fib = fibonacci()
-for _ in range(10):
-    print(next(fib))
-    </code></pre>
-
-        <p>Generators are a powerful tool for managing and iterating over sequences of data without consuming excessive
-            memory. They provide a way to work with data efficiently and seamlessly, making them a valuable feature in
-            Python.</p>
-        <h4>Iterators and Iterables in Python</h4>
-        <p>Iterators and iterables are fundamental concepts in Python that allow you to work with sequences of data
-            efficiently. They are used to loop over collections or perform iteration operations. Here's an overview of
-            what iterators and iterables are and how they work:</p>
-
-        <li>1. Iterable</li>
-        <p>An iterable is any object that can be looped over using a <code>for</code> loop. It has an
-            <code>__iter__()</code> method that returns an iterator.
-        </p>
-        <pre><code>
-iterable = [1, 2, 3, 4, 5]
-for item in iterable:
-    print(item)
-    </code></pre>
-
-        <li>2. Iterator</li>
-        <p>An iterator is an object that implements the <code>__next__()</code> method, which returns the next item from
-            the sequence. It also has an <code>__iter__()</code> method that returns itself.</p>
-        <pre><code>
-class MyIterator:
-    def __init__(self, data):
-        self.data = data
-        self.index = 0
-
-    def __iter__(self):
-        return self
-
-    def __next__(self):
-        if self.index < len(self.data):
-            result = self.data[self.index]
-            self.index += 1
-            return result
-        else:
-            raise StopIteration
-
-my_iterable = MyIterator([1, 2, 3, 4, 5])
-for item in my_iterable:
-    print(item)
-    </code></pre>
-
-        <li>3. Built-in Iterators and Iterables</li>
-        <p>Python provides built-in functions and objects that work with iterators and iterables:</p>
-        <ul>
-            <li><code>iter(iterable)</code>: Returns an iterator for the given iterable.</li>
-            <li><code>next(iterator)</code>: Retrieves the next item from the iterator.</li>
-        </ul>
-        <pre><code>
-my_list = [1, 2, 3, 4, 5]
-my_iterator = iter(my_list)
-print(next(my_iterator))  # Output: 1
-    </code></pre>
-
-        <li>4. Iterable vs. Iterator</li>
-        <ul>
-            <li>An iterable is an object that can be looped over.</li>
-            <li>An iterator is an object that maintains its state and can provide items one by one.</li>
-        </ul>
-
-        <p>Understanding the concepts of iterators and iterables is essential for writing efficient and readable Python
-            code when working with collections of data. Many built-in functions and libraries in Python rely on these
-            concepts for iteration and data processing.</p>
-        <h4>Context Managers in Python</h4>
-        <p>Context managers in Python provide a convenient and reliable way to manage resources, such as file handles or
-            network connections, by taking care of resource allocation and cleanup automatically. They are often used
-            with the <code>with</code> statement and follow the "context manager" protocol using the
-            <code>__enter__()</code> and <code>__exit__()</code> methods.
-        </p>
-
-        <li>1. Using Context Managers</li>
-        <p>Context managers are typically used with the <code>with</code> statement. This ensures that the resource is
-            properly allocated and released, even if an exception occurs.</p>
-        <pre><code>
-with open("file.txt", "r") as file:
-    content = file.read()
-    # Do something with the content
-# File is automatically closed outside the 'with' block
-    </code></pre>
-
-        <li>2. Creating a Context Manager</li>
-        <p>You can create your own context manager by defining a class with <code>__enter__()</code> and
-            <code>__exit__()</code> methods.
-        </p>
-        <pre><code>
-class MyContext:
-    def __enter__(self):
-        # Code executed when entering the 'with' block
-        print("Entering the context")
-        return self  # The returned value can be accessed in the 'as' clause
-
-    def __exit__(self, exc_type, exc_value, traceback):
-        # Code executed when exiting the 'with' block
-        print("Exiting the context")
-        # 'exc_type', 'exc_value', and 'traceback' capture any exceptions raised
-        return False  # If True, exceptions are suppressed; if False, exceptions are propagated
-
-with MyContext() as ctx:
-    # Code inside the 'with' block
-    print("Inside the block")
-    </code></pre>
-
-        <li>3. Built-in Context Managers</li>
-        <p>Python provides built-in context managers through the <code>contextlib</code> module and certain built-in
-            functions.</p>
-        <ul>
-            <li><code>open()</code> function: Context manager for file handling.</li>
-            <li><code>threading.Lock()</code>: Context manager for managing thread locks.</li>
-            <li><code>contextlib.closing()</code>: Wraps an object to ensure its <code>close()</code> method is called.
-            </li>
-        </ul>
-        <pre><code>
-from contextlib import closing
-
-with open("file.txt", "r") as file:
-    # Code to read and process the file
-
-with closing(socket.socket(socket.AF_INET, socket.SOCK_STREAM)) as sock:
-    # Code to work with the socket
-    </code></pre>
-
-        <p>Context managers help ensure proper resource management, prevent resource leaks, and enhance code readability
-            by encapsulating setup and teardown code. They are especially useful when working with files, database
-            connections, network sockets, and other resources that need to be handled correctly in a managed
-            environment.</p>
-        <h4>Metaclasses in Python</h4>
-        <p>Metaclasses in Python are a powerful and advanced concept used for customizing class creation and behavior. A
-            metaclass defines how a class itself should behave when creating instances. Metaclasses can be thought of as
-            classes for classes.</p>
-
-        <li>1. Class Creation Process</li>
-        <p>When you create a class, Python uses a metaclass (usually the built-in <code>type</code> metaclass) to define
-            the behavior of the class itself.</p>
-
-        <li>2. Creating a Metaclass</li>
-        <p>To define a custom metaclass, you create a class that inherits from <code>type</code> and overrides its
-            methods. One common method to override is <code>__new__()</code>.</p>
-        <pre><code>
-class MyMeta(type):
-    def __new__(cls, name, bases, attrs):
-        # Modify attributes before creating the class
-        modified_attrs = {...}  # Modify attrs as needed
-        return super().__new__(cls, name, bases, modified_attrs)
-    </code></pre>
-
-        <li>3. Using a Metaclass</li>
-        <p>To use a custom metaclass, you specify it by setting the <code>metaclass</code> attribute when defining a new
-            class.</p>
-        <pre><code>
-class MyClass(metaclass=MyMeta):
-    # Class definition
-    </code></pre>
-
-        <li>4. Common Uses</li>
-        <p>Metaclasses can be used for various purposes, such as:</p>
-        <ul>
-            <li>Validating class attributes or methods.</li>
-            <li>Auto-generating methods or properties.</li>
-            <li>Implementing singleton or factory patterns.</li>
-            <li>Implementing custom class hierarchies.</li>
-        </ul>
-
-        <li>5. Built-in Metaclasses</li>
-        <p>The default metaclass in Python is <code>type</code>. Python provides built-in metaclasses that can be
-            customized, and libraries like SQLAlchemy use metaclasses to define database models.</p>
-
-        <li>6. Example</li>
-        <p>Here's a simple example of using a metaclass to automatically convert attributes to uppercase:</p>
-        <pre><code>
-class UppercaseAttributesMeta(type):
-    def __new__(cls, name, bases, attrs):
-        uppercase_attrs = {key.upper(): value for key, value in attrs.items()}
-        return super().__new__(cls, name, bases, uppercase_attrs)
-
-class MyClass(metaclass=UppercaseAttributesMeta):
-    name = "Alice"
-    age = 30
-
-print(MyClass.NAME);  // Output: "Alice"
-print(MyClass.AGE);   // Output: 30
-    </code></pre>
-
-        <p>Metaclasses are a complex topic and are often used for advanced use cases. While they can be powerful, they
-            are not commonly used in everyday programming. Understanding basic metaclass concepts and their implications
-            can help you gain a deeper understanding of Python's class creation process.</p>
-        <h4>Concurrency and Multithreading in Python</h4>
-        <p>Concurrency and multithreading in Python involve executing multiple tasks concurrently to improve efficiency
-            and responsiveness. However, Python's Global Interpreter Lock (GIL) limits true parallelism in CPU-bound
-            tasks. Let's explore the concepts of concurrency and multithreading in Python:</p>
-
-        <li>1. Concurrency vs. Parallelism</li>
-        <p><strong>Concurrency</strong>: Executing multiple tasks in overlapping time periods, allowing progress on
-            multiple tasks without completing any single task.<br>
-            <strong>Parallelism</strong>: Executing multiple tasks simultaneously on separate processors or cores.
-        </p>
-
-        <li>2. Threading</li>
-        <p>Threading in Python uses the <code>threading</code> module to create threads. Threads share the same memory
-            space, making them suitable for I/O-bound tasks. However, due to the GIL, they might not significantly
-            improve performance for CPU-bound tasks.</p>
-        <pre><code>
-import threading
-
-def print_numbers():
-    for i in range(1, 6):
-        print(f"Number: {i}")
-        
-def print_letters():
-    for letter in 'abcde':
-        print(f"Letter: {letter}")
-        
-thread1 = threading.Thread(target=print_numbers)
-thread2 = threading.Thread(target=print_letters)
-
-thread1.start()
-thread2.start()
-
-thread1.join()
-thread2.join()
-    </code></pre>
-
-        <li>3. Thread Safety</li>
-        <p>When using threads, ensure proper synchronization to avoid issues like data corruption or race conditions.
-            Python's <code>threading</code> module provides synchronization primitives like locks and semaphores.</p>
-
-        <li>4. Concurrency with <code>asyncio</code></li>
-        <p>For I/O-bound tasks, consider using the <code>asyncio</code> library, which is based on asynchronous
-            programming and coroutines. It's more efficient than threads for I/O operations and handles concurrency
-            effectively.</p>
-        <pre><code>
-import asyncio
-
-async def print_numbers():
-    for i in range(1, 6):
-        print(f"Number: {i}")
-        await asyncio.sleep(1)
-        
-async def print_letters():
-    for letter in 'abcde':
-        print(f"Letter: {letter}")
-        await asyncio.sleep(0.5)
-
-loop = asyncio.get_event_loop()
-loop.run_until_complete(asyncio.gather(print_numbers(), print_letters()))
-loop.close()
-    </code></pre>
-
-        <li>5. Multiprocessing</li>
-        <p>For CPU-bound tasks, the <code>multiprocessing</code> module can be used to create separate processes, which
-            bypass the GIL and utilize multiple CPU cores.</p>
-        <pre><code>
-import multiprocessing
-
-def calculate_square(number):
-    print(f"Square: {number * number}")
-    
-def calculate_cube(number):
-    print(f"Cube: {number * number * number}")
-    
-if __name__ == '__main__':
-    number = 3
-    process1 = multiprocessing.Process(target=calculate_square, args=(number,))
-    process2 = multiprocessing.Process(target=calculate_cube, args=(number,))
-    
-    process1.start()
-    process2.start()
-    
-    process1.join()
-    process2.join()
-    </code></pre>
-
-        <p>When working with concurrency and multithreading in Python, consider the nature of your tasks. For I/O-bound
-            operations, <code>asyncio</code> might be more suitable. For CPU-bound tasks, <code>multiprocessing</code>
-            can provide true parallelism, bypassing the GIL.</p>
-        <h4>Coroutines and Asynchronous Programming in Python</h4>
-        <p>Coroutines and asynchronous programming in Python allow you to write non-blocking and efficient code for
-            I/O-bound tasks, such as network requests, file operations, and database queries. Asynchronous programming
-            is particularly useful when you want to achieve concurrency without creating multiple threads or processes.
-        </p>
-
-        <li>1. Coroutines</li>
-        <p>Coroutines are a type of function that can pause execution and yield control back to the event loop, allowing
-            other tasks to run while waiting for I/O-bound operations to complete.</p>
-        <pre><code>
-async def say_hello():
-    print("Hello")
-    await asyncio.sleep(1)  # Non-blocking sleep
-    print("World")
-    </code></pre>
-
-        <li>2. The <code>async</code> and <code>await</code> Keywords</li>
-        <ul>
-            <li><code>async</code>: Used to define a coroutine function.</li>
-            <li><code>await</code>: Used to pause execution of the coroutine and wait for the completion of another
-                coroutine or asynchronous operation.</li>
-        </ul>
-
-        <li>3. Asynchronous Event Loop</li>
-        <p>An event loop is the central component of asynchronous programming. It manages and schedules multiple tasks
-            (coroutines) to run concurrently without creating separate threads or processes.</p>
-        <pre><code>
-import asyncio
-
-async def main():
-    task1 = asyncio.create_task(say_hello())
-    task2 = asyncio.create_task(say_hello())
-    await task1
-    await task2
-
-asyncio.run(main())
-    </code></pre>
-
-        <li>4. Benefits of Asynchronous Programming</li>
-        <ul>
-            <li>Improved I/O performance: Non-blocking I/O operations allow other tasks to run while waiting for data.
-            </li>
-            <li>Concurrency without threads: Asynchronous programming is more memory-efficient compared to creating
-                multiple threads.</li>
-            <li>Scalability: Asynchronous code can handle a large number of connections simultaneously.</li>
-        </ul>
-
-        <li>5. Asynchronous Libraries</li>
-        <ul>
-            <li><code>asyncio</code>: The built-in library for asynchronous programming, providing event loops,
-                coroutines, and other asynchronous primitives.</li>
-            <li><code>aiohttp</code>: A popular library for asynchronous HTTP requests.</li>
-            <li><code>aiomysql</code>, <code>aiopg</code>: Libraries for asynchronous database connections.</li>
-        </ul>
-
-        <li>6. Using <code>async with</code> and <code>async for</code></li>
-        <p>In addition to <code>async def</code> and <code>await</code>, Python also provides <code>async with</code>
-            and <code>async for</code> to work with asynchronous context managers and iterate over asynchronous
-            iterators.</p>
-        <pre><code>
-async with open("file.txt", "r") as file:
-    content = await file.read()
-
-async for line in async_file_iterator():
-    process(line)
-    </code></pre>
-
-        <p>Asynchronous programming allows you to write code that efficiently handles I/O-bound tasks and maximizes
-            resource utilization. However, it's important to note that asynchronous programming is most beneficial for
-            I/O-bound operations; for CPU-bound tasks, other approaches like multiprocessing might be more suitable.</p>
-        <h4>Memory Management in Python</h4>
-        <p>Memory management in Python is an essential aspect of programming that involves the allocation and
-            deallocation of memory for objects. Python handles memory management automatically through a combination of
-            techniques, including reference counting, garbage collection, and memory pooling.</p>
-
-        <li>1. Reference Counting</li>
-        <p>Python uses reference counting to keep track of how many references there are to an object. When the
-            reference count drops to zero, the memory occupied by the object is automatically freed.</p>
-
-        <li>2. Garbage Collection</li>
-        <p>While reference counting handles most memory deallocation, cyclic references (objects referencing each other)
-            can lead to memory leaks. Python's garbage collector identifies and collects cyclic references, releasing
-            memory for objects that are no longer reachable.</p>
-
-        <li>3. Memory Pooling</li>
-        <p>Python uses memory pooling to improve performance when allocating and deallocating memory for small objects.
-            Small objects are grouped into memory blocks, and the memory manager allocates memory from these blocks
-            rather than repeatedly calling lower-level system memory allocation functions.</p>
-
-        <li>4. <code>gc</code> Module</li>
-        <p>Python's garbage collector can be controlled using the <code>gc</code> module. While it's not often necessary
-            to manually trigger garbage collection, you can use the <code>gc.collect()</code> function to encourage the
-            garbage collector to run.</p>
-
-        <li>5. Memory Optimization</li>
-        <ul>
-            <li>Avoid circular references to prevent memory leaks.</li>
-            <li>Use generators and iterators for memory-efficient processing of large datasets.</li>
-            <li>Use context managers (<code>with</code> statements) for automatic resource cleanup.</li>
-            <li>Consider memory profiling tools to identify memory usage bottlenecks.</li>
-        </ul>
-
-        <li>6. Memory Profiling Tools</li>
-        <p>Tools like <code>memory_profiler</code>, <code>objgraph</code>, and <code>guppy</code> can help you profile
-            and analyze memory usage in your Python code, allowing you to identify memory-hungry parts of your program.
-        </p>
-
-        <li>7. Memory Views and Buffer Protocols</li>
-        <p>Python provides memory views and buffer protocols, which allow efficient sharing of memory between different
-            data structures without copying data.</p>
-
-        <li>8. C Extensions and Memory Management</li>
-        <p>When working with C extensions in Python, be aware of memory management. Use appropriate memory allocation
-            and deallocation functions provided by the Python C API to avoid memory leaks.</p>
-
-        <p>Python's automatic memory management and garbage collection significantly simplify the programming process,
-            relieving developers of many manual memory management tasks. However, it's still important to be aware of
-            memory usage patterns and potential pitfalls, especially in memory-intensive applications.</p>
-        <h4>Performance Optimization in Python</h4>
-        <p>Performance optimization in Python involves identifying and implementing strategies to make your code run
-            faster and use fewer resources. While Python's interpreted nature might lead to slower execution compared to
-            compiled languages, there are several techniques you can use to improve performance:</p>
-
-        <li>1. Profiling</li>
-        <p>Before optimizing, profile your code to identify bottlenecks and areas that consume the most resources. Use
-            tools like <code>cProfile</code> or external profilers to analyze where your code spends most of its time.
-        </p>
-
-        <li>2. Algorithmic Optimization</li>
-        <p>Often, algorithmic changes can yield the most significant performance improvements. Choose efficient data
-            structures and algorithms tailored to your problem domain.</p>
-
-        <li>3. Caching and Memoization</li>
-        <p>Use caching to store the results of expensive function calls and reuse them when the same inputs are
-            encountered again. Libraries like <code>functools.lru_cache</code> can help.</p>
-
-        <li>4. Vectorization and Numpy</li>
-        <p>For numerical operations, use the <code>numpy</code> library, which performs array-based operations
-            efficiently and takes advantage of low-level optimizations.</p>
-
-        <li>5. Generator Expressions and Iterators</li>
-        <p>Use generators and iterators to avoid loading large datasets entirely into memory. This is especially useful
-            for processing files line by line.</p>
-
-        <li>6. List Comprehensions</li>
-        <p>List comprehensions are often more efficient than traditional loops, as they're optimized under the hood.</p>
-
-        <li>7. Avoid Global Variables</li>
-        <p>Accessing global variables is slower than accessing local variables. Minimize the use of global variables,
-            especially in tight loops.</p>
-
-        <li>8. Use Built-in Functions</li>
-        <p>Built-in functions and libraries are usually optimized and faster than custom implementations. For example,
-            use <code>sum()</code> instead of manual iteration for summation.</p>
-
-        <li>9. Avoid Unnecessary Work</li>
-        <p>Optimize away any unnecessary work. Short-circuit evaluations and conditional checks can prevent unnecessary
-            computations.</p>
-
-        <li>10. Profile and Optimize Loops</li>
-        <p>Loops are common performance bottlenecks. Optimize them by minimizing the number of iterations and moving
-            computations outside the loop if possible.</p>
-
-        <li>11. Parallelism and Concurrency</li>
-        <p>For CPU-bound tasks, consider using the <code>multiprocessing</code> module to take advantage of multiple
-            cores. For I/O-bound tasks, use asynchronous programming with <code>asyncio</code>.</p>
-
-        <li>12. NumPy and SciPy</li>
-        <p>For scientific and mathematical computations, the <code>numpy</code> and <code>scipy</code> libraries provide
-            optimized functions and data structures.</p>
-
-        <li>13. Cython and Numba</li>
-        <p>Consider using tools like Cython or Numba to write Python code that gets compiled to C or machine code, which
-            can result in significant speed improvements.</p>
-
-        <li>14. Profile Again</li>
-        <p>After making optimizations, profile your code again to ensure that the changes are having the desired effect.
-        </p>
-
-        <p>Remember, optimization should be driven by actual performance bottlenecks identified through profiling.
-            Premature optimization can lead to less readable code and minimal performance improvements. Focus on making
-            your code clean, maintainable, and functional first, and then optimize where necessary.</p>
-        <h4>Dynamic Typing and Type Annotations in Python</h4>
-        <p>Dynamic typing and type annotations are important concepts in Python that relate to how data types are
-            handled in the language and how you can provide hints about the expected types of variables and function
-            parameters.</p>
-
-        <li>1. Dynamic Typing</li>
-        <p>Python is a dynamically typed language, which means that you don't need to declare the data type of a
-            variable explicitly. The data type of a variable is determined at runtime based on the value it holds. This
-            allows for more flexibility but requires careful attention to avoid type-related errors.</p>
-
-        <pre><code>
-x = 5          # x is an integer
-x = "Hello"    # x is now a string
-    </code></pre>
-
-        <li>2. Type Annotations</li>
-        <p>While Python is dynamically typed, you can provide type hints using type annotations to indicate the expected
-            data types of variables, function parameters, and return values. Type annotations are primarily used to
-            improve code readability and for tools like static type checkers and IDEs.</p>
-
-        <pre><code>
-def add(a: int, b: int) -&gt; int:
-    return a + b
-    </code></pre>
-
-        <li>3. Static Type Checkers</li>
-        <p>Tools like <code>mypy</code> can analyze your code and provide static type checking based on the type
-            annotations you've added. This helps catch type-related errors before runtime.</p>
-
-        <pre><code>
-# Assuming this is saved in a file named 'example.py'
-def add(a: int, b: int) -&gt; int:
-    return a + b
-
-# Running mypy
-# mypy example.py
-    </code></pre>
-
-        <li>4. Type Annotations for Variables</li>
-        <p>You can also annotate variables with type hints to provide additional context about their expected types:</p>
-
-        <pre><code>
-x: int = 5
-name: str = "Alice"
-    </code></pre>
-
-        <li>5. Optional and Union Types</li>
-        <p>You can indicate that a parameter can accept multiple types using the <code>Union</code> type from the
-            <code>typing</code> module. You can also indicate that a parameter can be of a certain type or
-            <code>None</code> using the <code>Optional</code> type.
-        </p>
-
-        <pre><code>
-from typing import Union, Optional
-
-def greet(name: Union[str, None]) -&gt; str:
-    if name is None:
-        return "Hello, guest!"
-    else:
-        return f"Hello, {name}!"
-    </code></pre>
-
-        <p>Type annotations provide valuable information about the expected types of variables and function parameters,
-            improving code quality and documentation. They also help you catch type-related errors early during
-            development. However, remember that Python's dynamic nature means that type annotations are not enforced at
-            runtime; they primarily serve as documentation and can be used by static type checkers to identify potential
-            issues.</p>
-
-        <h4>Unicode and Internationalization in Python</h4>
-        <p>Unicode and internationalization (i18n) are essential aspects of programming in Python when dealing with text
-            data from different languages and character sets. Unicode is a standard that provides a unique numeric value
-            (code point) for every character across various writing systems and languages.</p>
-
-        <li>1. Unicode Strings</li>
-        <p>In Python 3, strings are represented as Unicode strings by default. This means you can include characters
-            from various languages and character sets in a single string.</p>
-
-        <pre><code>
-text = "Hello, 你好, привет!"
-    </code></pre>
-
-        <li>2. Encoding and Decoding</li>
-        <p>Encoding is the process of converting Unicode strings into bytes (byte sequences), while decoding is the
-            reverse process. Common encodings include UTF-8, UTF-16, and ASCII.</p>
-
-        <pre><code>
-encoded_bytes = text.encode("utf-8")
-decoded_text = encoded_bytes.decode("utf-8")
-    </code></pre>
-
-        <li>3. Working with Files</li>
-        <p>When reading or writing text files, always specify the desired encoding explicitly to ensure proper handling
-            of Unicode characters.</p>
-
-        <pre><code>
-with open("file.txt", "w", encoding="utf-8") as file:
-    file.write(text)
-    </code></pre>
-
-        <li>4. String Formatting</li>
-        <p>Unicode characters can be used in string formatting and interpolation like any other characters.</p>
-
-        <pre><code>
-name = "小明"
-formatted = f"Hello, {name}!"
-    </code></pre>
-
-        <li>5. Internationalization (i18n) and Localization (l10n)</li>
-        <p>The <code>gettext</code> module in Python is used for internationalization and localization, allowing you to
-            create applications that support multiple languages and locales.</p>
-
-        <pre><code>
-import gettext
-
-lang = "fr_FR"  # French (France) locale
-locale = gettext.translation("messages", localedir="locales", languages=[lang])
-locale.install()
-
-print(_("Hello, world!"))  # Translate this string in the 'locales' directory
-    </code></pre>
-
-        <li>6. Unicode Escape Sequences</li>
-        <p>Unicode escape sequences allow you to represent Unicode characters using their hexadecimal code points.</p>
-
-        <pre><code>
-escaped = "Hello, \u4F60\u597D"  # Represents "你好" in Unicode
-    </code></pre>
-
-        <li>7. Normalization</li>
-        <p>Unicode normalization ensures that equivalent characters are represented in a consistent way. Python's
-            <code>unicodedata</code> module provides functions for normalization.
-        </p>
-
-        <pre><code>
-import unicodedata
-
-normalized = unicodedata.normalize("NFC", text)
-    </code></pre>
-
-        <p>Python's robust Unicode support makes it well-suited for working with text data from different languages and
-            character sets. Remember to be mindful of encoding and decoding when dealing with text files and external
-            data sources, and consider using Unicode normalization for consistency.</p>
-
-        <p>
-        <h5>C Extensions and Cython</h5>
-        <p>C Extensions and Cython are techniques used in Python to optimize performance by integrating C or C++ code
-            into
-            Python programs. These techniques allow you to write low-level code that can be compiled and executed
-            alongside
-            Python code, achieving significant speed improvements for CPU-bound operations.</p>
-
-        <h6>1. C Extensions</h6>
-        <p>C extensions involve writing C code that is compiled into a shared library (.so on Unix-like systems, .dll on
-            Windows) that can be imported and used like any other Python module. This technique is useful for maximizing
-            performance in critical sections of code.</p>
-        <ul>
-            <li>Write C code and create a Python-compatible extension module.</li>
-            <li>Compile the C code using tools like <code>distutils</code>, <code>setuptools</code>, or manually using a
-                C
-                compiler.</li>
-        </ul>
-
-        <h6>2. Cython</h6>
-        <p>Cython is a programming language that makes it easy to write C extensions for Python, using a Python-like
-            syntax.
-            It allows you to write high-level Python code while achieving the performance of C. Cython code is
-            translated
-            into C code, which is then compiled into a shared library.</p>
-        <ul>
-            <li>Write Cython code using <code>.pyx</code> files.</li>
-            <li>Use Cython's annotations and features to optimize specific sections of code.</li>
-            <li>Compile Cython code into a C extension using the <code>cythonize</code> tool.</li>
-        </ul>
-
-        <h6>3. Benefits</h6>
-        <ul>
-            <li><strong>Performance:</strong> C extensions and Cython provide performance improvements for CPU-bound
-                tasks
-                by avoiding Python's interpreter overhead.</li>
-            <li><strong>Low-Level Control:</strong> C extensions and Cython allow you to write low-level code to
-                interact
-                directly with memory and hardware.</li>
-            <li><strong>Existing Libraries:</strong> You can easily use existing C or C++ libraries from Python,
-                enhancing
-                your program's capabilities.</li>
-        </ul>
-
-        <h6>4. Drawbacks</h6>
-        <ul>
-            <li><strong>Complexity:</strong> Writing and maintaining C code can be more complex than pure Python code.
-            </li>
-            <li><strong>Platform-Specific:</strong> C extensions might require recompilation for different platforms.
-            </li>
-            <li><strong>Debugging:</strong> Debugging C code can be more challenging than debugging Python.</li>
-        </ul>
-
-        <h6>5. Example (Cython)</h6>
-        <p>Here's a simple example of using Cython to speed up a function:</p>
-        <p><strong>Python version:</strong></p>
-        <pre><code>def calculate_sum(n):
-    total = 0
-    for i in range(n):
-        total += i
-    return total</code></pre>
-        <p><strong>Cython version (in <code>my_module.pyx</code>):</strong></p>
-        <pre><code>def calculate_sum(int n):
-    cdef int total = 0
-    for i in range(n):
-        total += i
-    return total</code></pre>
-        <p>Compile Cython code:</p>
-        <pre><code>cythonize -i my_module.pyx</code></pre>
-
-        <h6>6. When to Use</h6>
-        <ul>
-            <li>Use C extensions or Cython when you've identified specific bottlenecks that require low-level
-                optimizations.
-            </li>
-            <li>For general-purpose Python code, the overhead of writing and maintaining C extensions might outweigh the
-                performance gains.</li>
-        </ul>
-
-        <p>Both C extensions and Cython provide ways to bridge the gap between Python's high-level expressiveness and
-            the
-            performance of lower-level languages. Choose the technique that best fits your use case and consider the
-            trade-offs between performance gains and development complexity.</p> -->
         </p>
     </div>
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
