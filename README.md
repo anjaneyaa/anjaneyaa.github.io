@@ -8,7 +8,7 @@ Here are some ideas to get you started:-->
 - 🔭 I’m currently working as a Associate Consultant/ Software Engineer
 - 🌱 I’m currently learning Python Development.
 - 👯 I’m looking to collaborate on Python Development Projects
-- :point_right: https://anjanik366.github.io/
+- :point_right: https://anjaneyaa.github.io/
 <!-- - 🤔 I’m looking for help with ... -->
 <!-- - 💬 Ask me about ... -->
 - 📫 You can reach me by email @anjani.ies.26@gmail.com
@@ -19,10 +19,10 @@ Here are some ideas to get you started:-->
 
 
 
-<!-- echo "# anjanik366.github.io" >> README.md
+<!-- echo "# anjaneyaa.github.io" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
-git remote add origin https://github.com/anjanik366/anjanik366.github.io.git
+git remote add origin https://github.com/anjaneyaa/anjaneyaa.github.io.git
 git push -u origin main -->
